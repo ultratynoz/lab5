@@ -1,6 +1,6 @@
 import java.util.List;
 
-public interface WeightedGraph {
+public interface WeightedGraph<E> {
 
     public boolean addVertex();
 

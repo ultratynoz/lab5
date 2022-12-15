@@ -2,9 +2,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class WeightedGraphHTW implements WeightedGraph<E>{
+public class WeightedGraphHTW<E> implements WeightedGraph<E>{
 
-    private HashMap<Integer, Vertex> vertices;
+    private HashMap<Integer, Vertex<E>> vertices;
 
     @Override
     public boolean addVertex() {
@@ -39,6 +39,8 @@ class Vertex<E>{
         return edges;
     }
 
-    public E getContent
+    public E getContent(){
+        return content;
+    }
 
 }
