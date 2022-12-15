@@ -1,7 +1,8 @@
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class WeightedGraphHTW implements WeightedGraph{
+public class WeightedGraphHTW implements WeightedGraph<E>{
 
     private HashMap<Integer, Vertex> vertices;
 
@@ -24,4 +25,20 @@ public class WeightedGraphHTW implements WeightedGraph{
     public List<Integer> getEdges(int ID) {
         return null;
     }
+}
+
+class Vertex<E>{
+    private List<Integer> edges;
+    private E content;
+
+    public Vertex(E content){
+        this.content = content;
+    }
+
+    public List<Integer> getEdges() {
+        return edges;
+    }
+
+    public E getContent
+
 }
