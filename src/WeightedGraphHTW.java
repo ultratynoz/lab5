@@ -7,8 +7,13 @@ public class WeightedGraphHTW<E> implements WeightedGraph<E>{
     private HashMap<Integer, Vertex<E>> vertices;
 
     @Override
-    public boolean addVertex() {
-        return false;
+    public boolean addVertex(int ID, E content) {
+        try{
+            vertices.put(ID,new Vertex<E>(content));
+        }catch(Exception e){
+            return false;
+        }
+        return true;
     }
 
     @Override

@@ -2,7 +2,7 @@ import java.util.List;
 
 public interface WeightedGraph<E> {
 
-    public boolean addVertex();
+    public boolean addVertex(int ID, E content);
 
     public List<Vertex> getVertices();
 
