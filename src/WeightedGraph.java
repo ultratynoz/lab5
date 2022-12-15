@@ -1,14 +1,17 @@
+import java.util.HashMap;
 import java.util.List;
 
 public interface WeightedGraph {
 
-    public boolean addVertex();
+    void addEdge(int source, int dest, int weight);
 
-    public List<Vertex> getVertices();
+    void multiEdge(int source, HashMap<Integer, Integer> destinations);
 
-    public int getVertex(int ID);
+    List<Vertex> getVertices();
 
-    public List<Integer> getEdges(int ID);
+    int getVertexName(int source);
 
+    int getWeight(int source, int dest);
 
+    List<Integer> getNeighbours(int source);
 }
