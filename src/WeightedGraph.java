@@ -3,11 +3,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class WeightedGraphClass {
+public class WeightedGraph {
     private static Map<Integer, List<WeightedEdge>> adjacencyList;
 
     // Constructor
-    public WeightedGraphClass() {
+    public WeightedGraph() {
         this.adjacencyList = new HashMap<>();
     }
 
@@ -35,4 +35,6 @@ public class WeightedGraphClass {
     public static List<Integer> getAllVertices() {
         return new LinkedList<>(adjacencyList.keySet());
     }
+
+    public static Map<Integer, List<WeightedEdge>> getAdjacencyList() {return adjacencyList;}
 }

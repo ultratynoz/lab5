@@ -3,7 +3,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         BufferedReader reader;
-        WeightedGraphClass adjacencyList = new WeightedGraphClass();
+        WeightedGraph adjacencyList = new WeightedGraph();
 
         try {
             reader = new BufferedReader(new FileReader("C:\\Projekte\\HTW Berlin\\FS2\\Assets\\Info\\Lab05\\graph1.txt"));

@@ -10,6 +10,7 @@ class WeightedEdge {
         this.weight = weight;
     }
 
+
     // Get the source vertex
     public int getSource() {
         return source;

@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Graph {
     private static Map<Integer, List<WeightedEdge>> adjacencyList;
@@ -13,8 +10,14 @@ public class Graph {
     public static void findShortestBetween(List<Integer> map){
         int source = map.get(getRandom(map.size()));
         int destination = map.get(getRandom(map.size()));
+        Map<Integer, List<WeightedEdge>> adjacencyList = WeightedGraph.getAdjacencyList();
 
         System.out.println(source);
         System.out.println(destination);
+
+        Set<Integer> settledNodes = new HashSet<>();
+        Set<Integer> unsettledNodes = new HashSet<>();
+
+        unsettledNodes.add(source);
     }
 }
