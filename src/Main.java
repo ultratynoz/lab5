@@ -21,5 +21,7 @@ public class Main {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        Graph.findShortestBetween(adjacencyList.getAllVertices());
     }
 }
