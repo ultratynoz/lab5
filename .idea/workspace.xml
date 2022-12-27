@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eec6a664-54f3-41b7-8072-dc17174148ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeightedEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeightedEdge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeightedGraphClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
       <updated>1671104482681</updated>
       <workItem from="1671113300435" duration="2194000" />
       <workItem from="1671709040873" duration="16000" />
-      <workItem from="1672126662308" duration="9450000" />
+      <workItem from="1672126662308" duration="9655000" />
     </task>
     <servers />
   </component>
