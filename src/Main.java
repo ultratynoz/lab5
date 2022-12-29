@@ -24,8 +24,8 @@ public class Main {
             throw new RuntimeException(e);
         }
         List<String> map = adjacencyList.getAllVertices();
-        // int start = map.get(Graph.getRandom(map.size()));
-        // int end = map.get(Graph.getRandom(map.size()));
+        // String start = map.get(Graph.getRandom(map.size()));
+        // String end = map.get(Graph.getRandom(map.size()));
         String start = "060192001006";
         String end = "060029101731";
         Map<String, Map<String, String>> result = Dijkstra.shortestPath(adjacencyList, start, end);
