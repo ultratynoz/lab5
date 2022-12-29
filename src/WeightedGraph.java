@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 public class WeightedGraph {
-    private static Map<Integer, List<WeightedEdge>> adjacencyList;
+    private static Map<String, List<WeightedEdge>> adjacencyList;
 
     // Constructor
     public WeightedGraph() {
@@ -12,14 +12,14 @@ public class WeightedGraph {
     }
 
     // Add a new vertex to the graph
-    public static void addVertex(int vertex) {
+    public static void addVertex(String vertex) {
         if (!adjacencyList.containsKey(vertex)) {
             adjacencyList.put(vertex, new LinkedList<>());
         }
     }
 
     // Add a new edge to the graph
-    public static void addEdge(int source, int destination, int weight) {
+    public static void addEdge(String source, String destination, int weight) {
         addVertex(source);
         addVertex(destination);
 
@@ -27,14 +27,14 @@ public class WeightedGraph {
     }
 
     // Get the neighbors of a given vertex
-    public static List<WeightedEdge> getNeighbors(int vertex) {
+    public static List<WeightedEdge> getNeighbors(String vertex) {
         return adjacencyList.get(vertex);
     }
 
     // Get all the vertices in the graph
-    public static List<Integer> getAllVertices() {
+    public static List<String> getAllVertices() {
         return new LinkedList<>(adjacencyList.keySet());
     }
 
-    public static Map<Integer, List<WeightedEdge>> getAdjacencyList() {return adjacencyList;}
+    public static Map<String, List<WeightedEdge>> getAdjacencyList() {return adjacencyList;}
 }
