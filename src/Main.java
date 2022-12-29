@@ -27,7 +27,7 @@ public class Main {
         // int start = map.get(Graph.getRandom(map.size()));
         // int end = map.get(Graph.getRandom(map.size()));
         String start = "060192001006";
-        String end = "060068201511";
+        String end = "060029101731";
         Map<String, Map<String, String>> result = Dijkstra.shortestPath(adjacencyList, start, end);
         Map<String, String> distances = result.get("distances");
         Map<String, String> predecessors = result.get("predecessors");

@@ -5,7 +5,7 @@ public class Graph {
         return (int)(Math.random()*mapSize);
     }
 
-    public static WeightedGraph findShortestBetween(WeightedGraph weightedGraph,List<Integer> map){
+    /* public static WeightedGraph findShortestBetween(WeightedGraph weightedGraph,List<Integer> map){
         int source = map.get(getRandom(map.size()));
         int destination = map.get(getRandom(map.size()));
         Map<String, List<WeightedEdge>> adjacencyList = weightedGraph.getAdjacencyList();
@@ -60,5 +60,5 @@ public class Graph {
             }
         }
         return shortestDistanceNode;
-    }
+    } */
 }
